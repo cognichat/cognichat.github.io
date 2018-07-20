@@ -14,10 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: CogniChat
-email: cognichat@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Cognitive Chat
 baseurl: "" # the subpath of the site
+reading_time:       true
+words_per_minute:   200
+logo:               '/assets/img/cognichat-logo.png'
 url: "https://cognichat.github.io/" # the base hostname & protocol for the site
 twitter_username: cognichat
 github_username:  cognichat
@@ -27,6 +29,10 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+
+# Comments
+disqus_shortname:   cognichat
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
