@@ -8,7 +8,7 @@ logo:               'assets/img/logo.png'
 background:         
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://cognichat.github.io/
+url:                http://localhost:4000
 
 # Jekyll
 permalink:          /:title/
@@ -47,7 +47,7 @@ twitter:            cognichat
 #instagram:          cognichat
 #lastfm:            cognichat
 #tumblr:            cognichat
-#skype:              cognichat
+skype:              cognichat
 #medium:            '@cognichat'
 #pinterest:         cognichat
 #foursquare:        cognichat
